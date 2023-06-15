@@ -11,10 +11,8 @@ String s="Welcome";
 
 @Override
 public void mesage() {
-	int message=20;
+	int message=10;
 	System.out.println(s);
-	//int i=4;
-	
 	
 	if(message<=5) {
 		System.out.println("your message has been successfully sent");
@@ -23,13 +21,15 @@ public void mesage() {
 	}
 		
 		else if(message>5) {
-			System.out.println("You can send message only five group: Try again");
+			System.out.println("You can send message only for five groups");
+			System.out.println("But you sent more than five groups");
 			while(message>5) {
-				for(message=0;message<=4;message++) {
+				for(message=0;message<=6;message++) {
 				System.out.println("Group: "+message);
 					
 					}
-				
+				System.out.println("Pleas try again");
+				break;
 			}
 			
 			
