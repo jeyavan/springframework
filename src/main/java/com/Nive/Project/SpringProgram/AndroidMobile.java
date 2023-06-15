@@ -11,29 +11,30 @@ String s="Welcome";
 
 @Override
 public void mesage() {
-	int message=25;
+	int message=20;
 	System.out.println(s);
-	int i=4;
+	//int i=4;
 	
 	
 	if(message<=5) {
 		System.out.println("your message has been successfully sent");
-		System.out.println("Thank you for using AndroidPhone");
+		System.out.println("Thank you for using Android");
 		
 	}
 		
 		else if(message>5) {
-			System.out.println("You can sent message only five group");
+			System.out.println("You can send message only five group: Try again");
+			while(message>5) {
+				for(message=0;message<=4;message++) {
+				System.out.println("Group: "+message);
+					
+					}
+				
+			}
+			
 			
 			}
-	while(i<=4) {
-		for(i=0;i<=4;i++) {
-		System.out.println(i);
-			
-			
-			}
-	}
-	System.out.println("please try again");	
+	
 
 }
 
