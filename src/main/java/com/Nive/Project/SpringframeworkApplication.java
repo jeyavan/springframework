@@ -15,6 +15,7 @@ public class SpringframeworkApplication {
 	
 	 MobileConsole mc=context.getBean( MobileConsole.class);
 	 mc.mesage();
+	 System.out.println("HI");
 	
 	}
 
